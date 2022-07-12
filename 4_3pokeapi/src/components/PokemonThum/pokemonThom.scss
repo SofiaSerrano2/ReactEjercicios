@@ -1,0 +1,21 @@
+$backgroundBug:#5BC5A7;
+$backgroundFire:#F67470;
+$backgroundGrass:#7FC95A;
+$backgroundWater:#80C4F6;
+
+
+.bug-thumb-container{
+    background-color: $backgroundBug;
+}
+
+.fire-thumb-container{
+    background-color:$backgroundFire;
+}
+
+.grass-thumb-container{
+    background-color: $backgroundGrass;
+}
+
+.water-thumb-container{
+    background-color: $backgroundWater;
+}

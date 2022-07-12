@@ -12,6 +12,7 @@ function PokeItem({todo,index}){
     //a palabra “async” ante una función significa solamente una cosa: que la función siempre devolverá una promesa. Otros valores serán envueltos y resueltos en una promesa automáticamente.
     const [pokemon,setPokemon] = useState('');
     
+    
     return(
         <li className="lista">
             <div>
