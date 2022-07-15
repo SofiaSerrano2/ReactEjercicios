@@ -13,6 +13,38 @@
   width: 3rem;
 }
 
+/*buscador*/
+
+.container_buscador{
+  margin: 10px 0px 10px 0px;
+  border: 10px;
+  width: 30%;
+  height:30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdc2c684;
+  border-radius: 100px;
+  border-color: aqua;
+}
+
+.img_lupa{
+  height: 0.7rem;
+  width: 0.7rem;
+  margin: 0px 6px 0px 2px;
+}
+
+input{
+  border: 0;
+  border-radius:50px ;
+  outline: none;
+  width: 90%;
+  background-color: #e6f0f847;
+
+}
+
+/*Parte de las etiquetas con los #*/
 ul{
   display: flex;
   flex-direction: row;

@@ -5,6 +5,7 @@ import Etiqueta from './componentes/Etiqueta'
 import Buscador from './componentes/Buscador';
 //img
 import twitter from './img/twitter.png';
+import lupa from './img/vidrio-de-aumento.png'
 
 function App() {
   //objeto con etiqueta
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header rutaImg={twitter} clase='logoTwitter'/>
-
+      <Buscador  rutaImg={lupa} texto="Busca en Twitter"/>
       <Etiqueta etiquetaList={etiquetaList}></Etiqueta>
     </div>
   );
