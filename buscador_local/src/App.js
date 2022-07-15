@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import lupa from './vidrio-de-aumento.png';
+import logo from './people-logo.png';
+import './App.css'
 
 function App() {
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <main>
+            {/**empieza posible componentes */}
+            <div className='buscador_logo'>
+                <img src={logo} alt='logo_personas_buscando'/>
+                <h2 className='buscador_nombre'>Buscador de personas</h2>
+            </div>
+
+            <div className='buscador_container'>
+                <input type="text" className='buscador_container'/>
+                <div className='buscador_button'>
+                    <img src={lupa} alt='lupa'/>
+                </div>
+            </div>            
+            {/**termine componentes */}
+        </main>
     </div>
   );
 }
