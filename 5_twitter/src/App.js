@@ -12,7 +12,7 @@ function App() {
   const etiquetaList=[{"name":"Mayonesa"},{"name":"BootstrapVSTaildwind"},{"name":"JulioVinoConElPuma"},{"name":"CosasDeFrontends"},{"name":"Sabalero"}]
   return (
     <div className="App">
-      <Header rutaImg={twitter} clase='logoTwitter'/>
+      <Header rutaImg={twitter} clase='w-20 h-20'/>
       <Buscador  rutaImg={lupa} texto="Busca en Twitter"/>
       <Etiqueta etiquetaList={etiquetaList}></Etiqueta>
     </div>
