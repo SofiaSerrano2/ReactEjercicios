@@ -1,4 +1,4 @@
-import SideVar from "./componentes/SideVar";
+import SideMenu from "./componentes/SideMenu";
 
 
 function App() {
@@ -13,8 +13,7 @@ function App() {
                   ]
   return (
     <div className="App">
-      <SideVar pagList={pageList}/>
-      
+      <SideMenu pagList={pageList}/>
     </div>
   );
 }
